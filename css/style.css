@@ -1,0 +1,13 @@
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+h1 {
+    /*border-style: solid;*/
+    width:300px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
