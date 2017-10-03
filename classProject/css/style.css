@@ -1,0 +1,12 @@
+body{
+background-color: lightslategray;
+}
+h1{
+    color: aliceblue;
+}
+#Design{
+font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f8f8f8;
+  border-radius: 5px;
+}
