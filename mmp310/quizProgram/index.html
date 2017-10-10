@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A+ Quiz</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Mini 901/902 A+ Quiz</h1>
+                <h2>Answer all the questions correctly to get a perfect score.</h2>
+            </header>
+            <div class="quest" id="quest1">
+<!--901 Questions-->
+<!--Question 1-->
+                <p>A user creates a file in presentation software to be shown on a widescreen display. The user would like to adjust the aspect ratio of the slides in the presentation software so they display without extra black areas on the top, bottom, left, or right of the slides. Which of the following aspect ratios would BEST meet this requirement?</p>
+                    <p class="answer" id="answer1">4:3 // 5:4 // 16:9 // 256:135</p>
+                    <select class="questions" id="screen">
+                        <option></option>
+                        <option value ="4:3">4:3</option>
+                        <option Value ="5:4">5:4</option>
+                        <option Value ="16:9">16:9</option>
+                        <option Value ="256:135">256:135</option>
+                    </select>
+                    <p id="demo"></p>
+            </div>
+            <div class="quest" id="quest2">
+<!--Question 2-->
+                <p>Which of the following hard drive types would be considered the MOST likely to survive a fall?</p>
+                    <p class="answer" id="answer2">SCSI // Solid State // IDE // SATA</p>
+                    <select class="questions" id="drive">
+                        <option></option>
+                        <option value ="SCSI">SCSI</option>
+                        <option value ="Solid State">Solid State</option>
+                        <option value ="IDE">IDE</option>
+                        <option value ="SATA">SATA</option>
+                    </select>
+                    <p id="test"></p>
+            </div>
+            <div class="quest" id="quest3">
+<!--902 Questions-->
+<!--Question 3-->
+                <p>A user's computer will not boot. A technician notices four indicator lights on the backside of the computer. Two of the lights are green, and two are amber. Which of the following documentation should the technician read to determine what the lights are indicating?</p>
+                    <p class="answer" id="answer1">Network diagram // Computer manual // Asset management // Wiring scheme</p>
+                    <select class="questions" id="boot">
+                        <option></option>
+                        <option value="Network diagram">Network diagram</option>
+                        <option value="Computer manual">Computer manual</option>
+                        <option value="Asset management">Asset management</option>
+                        <option value="Wiring scheme">Wiring scheme</option>
+                    </select>
+                    <p id="test2"></p>
+            </div>
+            <div class="quest" id="quest2">
+<!--Question 4-->
+                <p>Which of the following utilities will display a listing of active IP ports on the computer being tested?</p>
+                    <p class="answer" id="answer1">NETSTAT // PINGl // IPCONFIG // TRACERT</p>
+                    <select class="questions" id="ip">
+                        <option></option>
+                        <option value="NETSTAT">NETSTAT</option>
+                        <option value="PINGl">PINGl</option>
+                        <option value="IPCONFIG">IPCONFIG</option>
+                        <option value="TRACERT">TRACERT</option>
+                    </select>
+                    <p id="test3"></p>
+                <script src="app.js"></script>
+                <button id="finish">FINISH</button>
+            </div>
+        </div>
+    </body>
+</html>

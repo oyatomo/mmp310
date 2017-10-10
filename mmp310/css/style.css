@@ -1,0 +1,16 @@
+* {
+    font-family: courier new;
+}
+body{
+    width: 1200px;
+    /*border-style: solid;*/
+}
+ul {
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
