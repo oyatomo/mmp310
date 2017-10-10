@@ -1,0 +1,23 @@
+* {
+    font-family: OCR A Std;
+    background: #333;
+    color: #2ecc71;
+}
+header {
+    border-style: solid;
+    text-align: center;
+    background: #2ecc71;
+}
+h1 {
+    background: #2ecc71;
+    color: #333;
+}
+h2 {
+    background: #2ecc71;
+    color: #333;
+}
+button {
+    background: #2ecc71;
+    border: none;
+    color: #333;
+}
