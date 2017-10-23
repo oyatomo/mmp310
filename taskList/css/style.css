@@ -1,15 +1,74 @@
+/*
 * {
-    background-color: #2ecc71;
-}
-h1 {
     background-color: #9b59b6;
 }
+h1 {
+    background-color: #2ecc71;
+}
 button {
-    background-color: #fff;
+    background-color: #e67e22;
     border: none;
 }
 input {
-    background-color: #fff;
+    background-color: #e67e22;
+    border-style: solid;
+    padding: 1em;
+}
+li{
+ list-style-type: none;
+ background-color: #2ecc71;
+ border-style: solid;
+}
+*/
+* {
+    background-color: #9b59b6;
+}
+header{
+    color: #333333;
+    background-color: #2ecc71;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    width:650px;
+}
+h1{
+    background-color: #2ecc71;
+}
+section{
+    /*border:solid;5px;*/
+    background-color: #9b59b6;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 650px;
+    text-align: center;
+    word-spacing: 2.5px;
+}
+#txt{
+    background-color: #e67e22;
     border: none;
     padding: 1em;
+}
+#add{
+    background-color: #e67e22;
+    border: none;
+}
+#tasks{
+    background-color: #2ecc71;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 650px;
+    text-align: center;
+    word-spacing: 2.5px;
+}
+li{
+ color: #333333;
+ list-style-type: none;
+ background-color: #2ecc71;
 }
