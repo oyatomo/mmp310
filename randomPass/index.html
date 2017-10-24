@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PSSST</title>
+        <title>// Random</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
     
     <body>
         <h1>Random Password Generator</h1>
 <!--Username-->
-        <input type="text" id="user" placeholder="Username">
+        <input type="text" id="user" placeholder="Username"> <br>
+<!--Keyword-->
+        <input type="text" id="key" placeholder="Keyword"> <br>
 <!--Pass. length-->
         <select id="length">
             <option value="5">5</option>
@@ -16,9 +19,7 @@
             <option value="8">8</option>
             <option value="9">9</option>
         </select>
-<!--Keyword-->
-        <input type="text" id="key" placeholder="Keyword">
-     
+<!--Button-->
         <button id="request">Get Passcode</button>
         <p>Your new passcode</p>
         <p id="output"></p>
