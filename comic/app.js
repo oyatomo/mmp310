@@ -7,16 +7,16 @@ var slide = {
 
 var slides = [
     {
-        image: "visuals/300x300.png",
+        image: "visuals/463028807.jpg",
         caption: "Mondays am I right?"
     },
     {
-        image: "visuals/300x300.png",
+        image: "visuals/90791227.jpg",
         caption: "WRONG!"
     },
     {
-        image: "visuals/300x300.png",
-        caption: "That was outta left feild"
+        image: "visuals/463028797.jpg",
+        caption: "That was outta left field"
     }
 ];
 
