@@ -1,0 +1,42 @@
+*{
+    background: #3498db;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+#query {
+    background: #FFF;
+    margin-left: 450px;
+    width: 360px;
+    text-align: center;
+    padding: 5px;
+}
+.results{
+    /*background: #2980b9;*/
+    color: #ffffff;
+    margin-left: 240px;
+    width: 405px;
+}
+#game {
+	width: 800px;
+	margin:0 auto;
+}
+
+.card {
+	width:200px;
+	height:200px;
+	display:inline-block;
+	background: #333;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.card img {
+	width:100%;
+	height:100%;
+}
