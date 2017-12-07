@@ -1,0 +1,22 @@
+* {
+    background-color: #333;
+    color: #fff
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#action {
+    background-color: #fff;
+    color: #333;
+    border-style: none;
+    padding: 15px;
+}
+/*
+#results {
+background-color: black;
+color: white;
+}
+*/

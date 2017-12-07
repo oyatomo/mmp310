@@ -11,8 +11,10 @@ $(document).ready(function() {
 				/* memory game */
 				var score = 0
                 var attempts = 0
+                var count = 100;
 				// need two copies of each image in a list
-				var cards = [];
+				
+                var cards = [];
 				
 				// place image into a grid
 				// obscure images
@@ -36,11 +38,24 @@ $(document).ready(function() {
 				for (let i = 0; i < cards.length; i++) {
 					$game.append(cards[i]);
 				}
-					 
+					 var countdown = function(){
+                        if (count <= 0) clearInterval(countdownInterval);
+                        document.getElementById("test").innerHTML = count;
+                        count--;
+                            if(count == 0){
+                                document.getElementById("game").style.display = "none";
+                                document.getElementById("test").style.display = "none";
+                                document.getElementById("results1").innerHTML = "You Lose";
+                            }
+                    };
+                    var countdownInterval = setInterval(countdown, 1000);
+                    
 				var clickedCards = [];
 				// each card/image needs clicks event
 				$('.card').click(function() {
+                    
                     attempts ++;
+                    
 //console.log("The # of attempts take to win are : " + attempts);
 					const $card = $(this);
 					// reveal images
