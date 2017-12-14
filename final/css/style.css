@@ -1,4 +1,14 @@
-* {
+
+
+
+
+
+
+
+
+
+/*
+{
     background-color: #333;
     color: #fff
 }
@@ -14,7 +24,7 @@ h2 {
     border-style: none;
     padding: 15px;
 }
-/*
+
 #results {
 background-color: black;
 color: white;

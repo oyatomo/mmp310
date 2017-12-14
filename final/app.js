@@ -1,19 +1,14 @@
-var action = document.getElementById("action");
-var obj = document.getElementById("objective");
-var txt = ['JUMP', 'JIVE', 'JET', 'MATCH', 'SET', 'GAME'];
-var countdown = 5;
 
-window.setInterval(function() {
-    if (countdown >= 0) {
-    document.querySelector('#countdown').innerHTML = countdown;
-    countdown--;
-    } else {
-        alert('done.');
-    }
-}, 1000);
-
+var act = document.getElementById("action");
+var wordOne = document.getElementById("wordOne");
+var list = ['jump','juke','jive'];
 action.onclick = function() {
-    
-    var txtRan = txt[Math.floor(Math.random() * txt.length)];
-    obj.innerHTML = txtRan;
+    var x = "world";
+    var wordTwo = document.getElementById("wordTwo").value;
+    //wordOne.innerHTML = "world";
+    var ran = list [Math.floor(Math.random() * list.length)];
+    wordOne.innerHTML = ran;
+    if (wordOne.innerHTML == wordTwo){
+        console.log("Howdy_Homie");
+    };
 };
