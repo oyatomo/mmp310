@@ -1,32 +1,49 @@
-
-
-
-
-
-
-
-
-
-/*
-{
-    background-color: #333;
-    color: #fff
+* {
+    background-color: #333333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
+#container {
+    padding: 2em;
+    //width: 790px;
+}
+
+h1{
+    border: solid;
     text-align: center;
-}
-h2 {
-    text-align: center;
-}
-#action {
+    padding: 1em;
     background-color: #fff;
-    color: #333;
-    border-style: none;
-    padding: 15px;
+    color: #333333;
+    letter-spacing: 50px;
 }
-
-#results {
-background-color: black;
-color: white;
+#p1{
+    text-align: center;
 }
-*/
+button{
+    margin-left: 425px;
+    padding: 2em;
+}
+#playField{
+    margin-left: 430px;
+    margin-right: 430px;
+    padding: 2em;
+}
+#wordOne{
+    font-size: 3em;
+    text-align: center;
+}
+#wordTwo{
+    font-size: 3em;
+    width: 270px;
+    text-align: center;
+}
+#box1{
+    float: left;
+    padding: 2em;
+    text-align: center;
+}
+#box2{
+    float: right;
+    padding: 2em;
+    text-align: center;
+}

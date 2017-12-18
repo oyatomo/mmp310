@@ -4,16 +4,26 @@
         <title> + TYPING</title>
         <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
+    
     <body>
         <div id="container">
-            <h1>Sample Txt</h1>
-            <p>Type the words that appear on the screen.</p>
+            <h1>Typing Game</h1>
+            <p id="p1">Hit the action button. When a word appears on screen type it.</p>
             <button id="action">ACTION</button>
+            <div id="box1">
+                <p>SCORE</p>
+                <p id="scoreP"></p>
+            </div>
+            <div id="box2">
+                <p>TIME</p>
+                <p id="timeP"></p>
+            </div>
             <div id="playField">
                 <p id="wordOne"></p>
                 <input type="text" placeholder="" id="wordTwo">
             </div>
         </div>
         <script src="app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </body>
 </html>
