@@ -21,7 +21,6 @@ var timeP = document.getElementById("timeP");
         }
     timeP.innerHTML = count;
 	count--;
-    
 };
     
 
@@ -29,11 +28,12 @@ function nextWord() {
   wordOne.textContent = "1 point added to total score!";
    $.getJSON(url + key, function(data) {
       wordOne.textContent = data[0].word;
-   });
     score ++;
+    var countdownInterval = setInterval(countdown, 500);
+   });
+    
     scoreP.innerHTML = score;
     console.log(score);
-    var countdownInterval = setInterval(countdown, 500);
     countdown();
 }
 
