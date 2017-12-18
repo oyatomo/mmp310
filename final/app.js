@@ -16,9 +16,6 @@ var timeP = document.getElementById("timeP");
     var countdown = function(){
     
     if (count == 0) clearInterval(countdownInterval);
-        {
-            console.log(count);
-        }
     timeP.innerHTML = count;
 	count--;
 };
@@ -42,6 +39,9 @@ wordTwo.addEventListener('input', function() {
     wordTwo.value = "";
     nextWord();
   }
+    
+    if (count <= 1)
+        document.getElementById("wordOne").style.display = "none";
 });
 
 action.onclick = nextWord;
